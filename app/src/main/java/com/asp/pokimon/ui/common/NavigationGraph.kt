@@ -1,6 +1,8 @@
 package com.asp.pokimon.ui.common
 
+import android.util.Log
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -47,7 +49,9 @@ fun NavigationGraph(navController: NavHostController, startDestination: Screen) 
         ) { destination ->
             val detailViewModel: PokemonDetailViewModel = hiltViewModel()
             val name = destination.arguments?.getString("name") ?: ""
-            detailViewModel.handleIntent(PokemonDetailIntent.LoadPokemonDetail(name))
+            LaunchedEffect(name) {
+                detailViewModel.handleIntent(PokemonDetailIntent.LoadPokemonDetail(name))
+            }
             val state by detailViewModel.state.collectAsStateWithLifecycle()
             LoadPokemonDetail(
                 name = name.capitalizeFirstLetter(),

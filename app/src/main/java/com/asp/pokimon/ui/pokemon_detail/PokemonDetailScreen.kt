@@ -137,8 +137,8 @@ fun PokemonDetailLoadingScreen() {
     ) {
         CircularProgressIndicator(
             modifier = Modifier
-                .height(48.dp)
-                .width(48.dp)
+                .height(100.dp)
+                .width(100.dp)
                 .padding(16.dp)
                 .testTag("CircularProgressIndicator")
         )
