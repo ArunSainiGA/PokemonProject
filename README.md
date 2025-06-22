@@ -18,6 +18,7 @@ A Kotlin/Java project for listing Pokemon and also the detailed information abou
 
 ## Open Issues
 - When we navigate to the detail screen, the content is loaded few times. There is an open issue which google is saying that it is an intended behaviour. It is happening as the recomposition is being triggered for navigation compasable which ideally should not happen. We have to dig deeper and understand the alternative implementation that can avoid this isse. Issue link https://issuetracker.google.com/issues/225987040?pli=1
+
 Update: Resolved this issue using workaround of using LaunchedEffects in commit https://github.com/ArunSainiGA/PokemonProject/commit/d17e3d31a8904135bd17130d73f6175c0963b1b0 
 
 ## Recordings 
