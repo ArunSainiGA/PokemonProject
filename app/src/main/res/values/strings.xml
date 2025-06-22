@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PokimonProject</string>
+    <string name="pokemon_list_title">Pokemon Encyclopedia</string>
+    <string name="pokemon_list_sub_title">Explore all the Pokemon</string>
+    <string name="generic_error">Something went wrong. Please try again.</string>
+    <string name="height_label">Height: %1$s</string>
+</resources>
