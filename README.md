@@ -22,7 +22,7 @@ A Kotlin/Java project for listing Pokemon and also the detailed information abou
 ## Recordings 
 - [Pokemon detail screen](https://github.com/user-attachments/assets/7dcc32ac-9daa-4773-855a-7a6e9e3c5e94)
 - [Pokemon list with simple pagination and loading](https://github.com/user-attachments/assets/a47b0b88-3e9b-4309-9173-45831e098087)
-- [Retry with error message](https://github.com/user-attachments/assets/1c1a2afe-74f0-48c6-8ea4-82fbdeb471af)
+- [Retry with error message. Mocked the failure at first time to record the videoe](https://github.com/user-attachments/assets/1c1a2afe-74f0-48c6-8ea4-82fbdeb471af)
 
 ## License
 MIT
